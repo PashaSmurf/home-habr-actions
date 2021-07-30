@@ -1,11 +1,11 @@
-name: Publish on Docker Hub and Deploy
+name: Publish on DockerHub and Deploy
 
 on:
   push:
     branches: [master]
 
 env:
-  VERSION: '1.0.3'
+  VERSION: '1.0.4'
 
 jobs:
   run_tests:
