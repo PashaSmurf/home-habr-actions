@@ -2,6 +2,8 @@ name: Run tests on dev or test branch
 on:
   push:
     branches: [dev, test]
+  pull_request:
+    branches: [dev, test]
 
 jobs:
   run_tests:
